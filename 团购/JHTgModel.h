@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "JHGlobal.h"
 
-@interface JHTg : NSObject
+@interface JHTgModel : NSObject
 
 /**
  *  已购买人数

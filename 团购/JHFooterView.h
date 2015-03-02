@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  JHFooterView.h
 //  团购
 //
 //  Created by piglikeyoung on 15/3/2.
@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+@class ViewController;
 
-@interface ViewController : UIViewController
+@interface JHFooterView : UIView
 
--(void)loadMoreData;
+@property (nonatomic, strong) ViewController *controller;
 
 @end
 

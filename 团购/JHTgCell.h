@@ -7,11 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-@class JHTg;
+@class JHTgModel;
 
 @interface JHTgCell : UITableViewCell
 
-@property (nonatomic, strong) JHTg *tg;
+@property (nonatomic, strong) JHTgModel *tg;
 
 +(instancetype) cellWithTableView:(UITableView *)tableView;
 

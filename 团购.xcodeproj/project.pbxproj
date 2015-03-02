@@ -14,10 +14,12 @@
 		7DBD342A1AA42F74000F3423 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD34291AA42F74000F3423 /* Images.xcassets */; };
 		7DBD342D1AA42F74000F3423 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD342B1AA42F74000F3423 /* LaunchScreen.xib */; };
 		7DBD34391AA42F74000F3423 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD34381AA42F74000F3423 /* __Tests.m */; };
-		7DBD34451AA432A6000F3423 /* JHTg.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD34441AA432A6000F3423 /* JHTg.m */; };
+		7DBD34451AA432A6000F3423 /* JHTgModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD34441AA432A6000F3423 /* JHTgModel.m */; };
 		7DBD34481AA43CA0000F3423 /* JHTgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD34471AA43CA0000F3423 /* JHTgCell.m */; };
 		7DBD344A1AA43E48000F3423 /* tgs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD34491AA43E48000F3423 /* tgs.plist */; };
 		7DBD344C1AA440BA000F3423 /* JHTgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD344B1AA440BA000F3423 /* JHTgCell.xib */; };
+		7DBD344F1AA45D40000F3423 /* JHFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD344E1AA45D40000F3423 /* JHFooterView.m */; };
+		7DBD34511AA4612D000F3423 /* JHFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD34501AA4612D000F3423 /* JHFooterView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,12 +47,15 @@
 		7DBD34371AA42F74000F3423 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DBD34381AA42F74000F3423 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
 		7DBD34421AA430E9000F3423 /* JHGlobal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHGlobal.h; sourceTree = "<group>"; };
-		7DBD34431AA431F4000F3423 /* JHTg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTg.h; sourceTree = "<group>"; };
-		7DBD34441AA432A6000F3423 /* JHTg.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTg.m; sourceTree = "<group>"; };
+		7DBD34431AA431F4000F3423 /* JHTgModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTgModel.h; sourceTree = "<group>"; };
+		7DBD34441AA432A6000F3423 /* JHTgModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTgModel.m; sourceTree = "<group>"; };
 		7DBD34461AA432EC000F3423 /* JHTgCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHTgCell.h; sourceTree = "<group>"; };
 		7DBD34471AA43CA0000F3423 /* JHTgCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHTgCell.m; sourceTree = "<group>"; };
 		7DBD34491AA43E48000F3423 /* tgs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = tgs.plist; sourceTree = "<group>"; };
 		7DBD344B1AA440BA000F3423 /* JHTgCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHTgCell.xib; sourceTree = "<group>"; };
+		7DBD344D1AA45CC9000F3423 /* JHFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFooterView.h; sourceTree = "<group>"; };
+		7DBD344E1AA45D40000F3423 /* JHFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFooterView.m; sourceTree = "<group>"; };
+		7DBD34501AA4612D000F3423 /* JHFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHFooterView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,19 +97,7 @@
 		7DBD341B1AA42F74000F3423 /* 团购 */ = {
 			isa = PBXGroup;
 			children = (
-				7DBD34201AA42F74000F3423 /* AppDelegate.h */,
-				7DBD34211AA42F74000F3423 /* AppDelegate.m */,
-				7DBD34231AA42F74000F3423 /* ViewController.h */,
-				7DBD34241AA42F74000F3423 /* ViewController.m */,
-				7DBD34421AA430E9000F3423 /* JHGlobal.h */,
-				7DBD34431AA431F4000F3423 /* JHTg.h */,
-				7DBD34441AA432A6000F3423 /* JHTg.m */,
-				7DBD34461AA432EC000F3423 /* JHTgCell.h */,
-				7DBD34471AA43CA0000F3423 /* JHTgCell.m */,
-				7DBD344B1AA440BA000F3423 /* JHTgCell.xib */,
-				7DBD34261AA42F74000F3423 /* Main.storyboard */,
-				7DBD34291AA42F74000F3423 /* Images.xcassets */,
-				7DBD342B1AA42F74000F3423 /* LaunchScreen.xib */,
+				7DBD34571AA48520000F3423 /* Classes */,
 				7DBD341C1AA42F74000F3423 /* Supporting Files */,
 			);
 			path = "团购";
@@ -113,6 +106,9 @@
 		7DBD341C1AA42F74000F3423 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				7DBD342B1AA42F74000F3423 /* LaunchScreen.xib */,
+				7DBD34261AA42F74000F3423 /* Main.storyboard */,
+				7DBD34291AA42F74000F3423 /* Images.xcassets */,
 				7DBD34491AA43E48000F3423 /* tgs.plist */,
 				7DBD341D1AA42F74000F3423 /* Info.plist */,
 				7DBD341E1AA42F74000F3423 /* main.m */,
@@ -135,6 +131,66 @@
 				7DBD34371AA42F74000F3423 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7DBD34521AA48454000F3423 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DBD34431AA431F4000F3423 /* JHTgModel.h */,
+				7DBD34441AA432A6000F3423 /* JHTgModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7DBD34531AA48471000F3423 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7DBD344D1AA45CC9000F3423 /* JHFooterView.h */,
+				7DBD344E1AA45D40000F3423 /* JHFooterView.m */,
+				7DBD34501AA4612D000F3423 /* JHFooterView.xib */,
+				7DBD34461AA432EC000F3423 /* JHTgCell.h */,
+				7DBD34471AA43CA0000F3423 /* JHTgCell.m */,
+				7DBD344B1AA440BA000F3423 /* JHTgCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		7DBD34541AA48490000F3423 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				7DBD34231AA42F74000F3423 /* ViewController.h */,
+				7DBD34241AA42F74000F3423 /* ViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		7DBD34551AA484A7000F3423 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7DBD34201AA42F74000F3423 /* AppDelegate.h */,
+				7DBD34211AA42F74000F3423 /* AppDelegate.m */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		7DBD34561AA484BB000F3423 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				7DBD34421AA430E9000F3423 /* JHGlobal.h */,
+			);
+			name = Global;
+			sourceTree = "<group>";
+		};
+		7DBD34571AA48520000F3423 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				7DBD34561AA484BB000F3423 /* Global */,
+				7DBD34551AA484A7000F3423 /* Other */,
+				7DBD34541AA48490000F3423 /* Controller */,
+				7DBD34531AA48471000F3423 /* View */,
+				7DBD34521AA48454000F3423 /* Model */,
+			);
+			name = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +278,7 @@
 				7DBD342D1AA42F74000F3423 /* LaunchScreen.xib in Resources */,
 				7DBD344C1AA440BA000F3423 /* JHTgCell.xib in Resources */,
 				7DBD342A1AA42F74000F3423 /* Images.xcassets in Resources */,
+				7DBD34511AA4612D000F3423 /* JHFooterView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,9 +297,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7DBD34251AA42F74000F3423 /* ViewController.m in Sources */,
+				7DBD344F1AA45D40000F3423 /* JHFooterView.m in Sources */,
 				7DBD34481AA43CA0000F3423 /* JHTgCell.m in Sources */,
 				7DBD34221AA42F74000F3423 /* AppDelegate.m in Sources */,
-				7DBD34451AA432A6000F3423 /* JHTg.m in Sources */,
+				7DBD34451AA432A6000F3423 /* JHTgModel.m in Sources */,
 				7DBD341F1AA42F74000F3423 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

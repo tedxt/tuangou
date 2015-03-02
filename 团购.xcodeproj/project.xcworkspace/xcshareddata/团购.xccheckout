@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8C6CCD8A-E57A-4B64-8D5A-5D5C087A36F8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>团购</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>552509BDB4FB6CC35E52E6516F8443A4C3D7E0AD</key>
+		<string>https://github.com/piglikeYoung/tuangou.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>团购.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>552509BDB4FB6CC35E52E6516F8443A4C3D7E0AD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/piglikeYoung/tuangou.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>552509BDB4FB6CC35E52E6516F8443A4C3D7E0AD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>552509BDB4FB6CC35E52E6516F8443A4C3D7E0AD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>%E5%9B%A2%E8%B4%AD</string>
+		</dict>
+	</array>
+</dict>
+</plist>

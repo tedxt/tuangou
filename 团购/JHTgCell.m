@@ -7,7 +7,7 @@
 //
 
 #import "JHTgCell.h"
-#import "JHTg.h"
+#import "JHTgModel.h"
 
 @interface JHTgCell()
 @property (weak, nonatomic) IBOutlet UIImageView *iconView;
@@ -34,7 +34,7 @@
     return cell;
 }
 
--(void)setTg:(JHTg *)tg
+-(void)setTg:(JHTgModel *)tg
 {
     _tg = tg;
     
