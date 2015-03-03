@@ -10,8 +10,9 @@
 #import "JHTgModel.h"
 #import "JHTgCell.h"
 #import "JHFooterView.h"
+#import "JHHeaderView.h"
 
-@interface ViewController ()<UITableViewDataSource>
+@interface ViewController ()<UITableViewDataSource,JHFooterViewDelegete>
 
 @property(nonatomic,strong) NSMutableArray *tgs;
 
@@ -59,11 +60,14 @@
     self.tableView.tableFooterView = footerView;
     
     // 设置控制
-    footerView.controller = self;
+    footerView.delegate = self;
+    
+    // 设置头部视图
+    self.tableView.tableHeaderView =[JHHeaderView headerView];
 
 }
 
--(void)loadMoreData{
+-(void)footerViewDidClickLoadBtn:(JHFooterView *)footerView{
     
     // 1.创建模型
     JHTgModel *tg = [[JHTgModel alloc] init];

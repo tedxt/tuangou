@@ -7,9 +7,9 @@
 //
 
 #import "JHFooterView.h"
-#import "ViewController.h"
 
 @interface JHFooterView()
+-(IBAction)btnOnClick;
 
 /**
  *  菊花视图
@@ -24,6 +24,11 @@
 
 @implementation JHFooterView
 
+-(void)setDelegate:(id<JHFooterViewDelegete>)delegate
+{
+    _delegate = delegate;
+}
+
 - (IBAction)btnOnClick {
     NSLog(@"按钮被点击了");
 
@@ -36,7 +41,9 @@
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
         // 3.调用控制的加载数据方法
-        [self.controller loadMoreData];
+        if ([self.delegate respondsToSelector:@selector(footerViewDidClickLoadBtn:)]) {
+            [self.delegate footerViewDidClickLoadBtn:self];
+        }
         // 4.隐藏菊花视图
         self.loadingView.hidden = YES;
         // 5.显示按钮

@@ -20,6 +20,8 @@
 		7DBD344C1AA440BA000F3423 /* JHTgCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD344B1AA440BA000F3423 /* JHTgCell.xib */; };
 		7DBD344F1AA45D40000F3423 /* JHFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DBD344E1AA45D40000F3423 /* JHFooterView.m */; };
 		7DBD34511AA4612D000F3423 /* JHFooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DBD34501AA4612D000F3423 /* JHFooterView.xib */; };
+		7DC486631AA561B200A075F4 /* JHHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7DC486621AA561B200A075F4 /* JHHeaderView.xib */; };
+		7DC486661AA563E500A075F4 /* JHHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DC486651AA563E500A075F4 /* JHHeaderView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,9 @@
 		7DBD344D1AA45CC9000F3423 /* JHFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHFooterView.h; sourceTree = "<group>"; };
 		7DBD344E1AA45D40000F3423 /* JHFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHFooterView.m; sourceTree = "<group>"; };
 		7DBD34501AA4612D000F3423 /* JHFooterView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHFooterView.xib; sourceTree = "<group>"; };
+		7DC486621AA561B200A075F4 /* JHHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JHHeaderView.xib; sourceTree = "<group>"; };
+		7DC486641AA563CB00A075F4 /* JHHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHeaderView.h; sourceTree = "<group>"; };
+		7DC486651AA563E500A075F4 /* JHHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHeaderView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +156,9 @@
 				7DBD34461AA432EC000F3423 /* JHTgCell.h */,
 				7DBD34471AA43CA0000F3423 /* JHTgCell.m */,
 				7DBD344B1AA440BA000F3423 /* JHTgCell.xib */,
+				7DC486621AA561B200A075F4 /* JHHeaderView.xib */,
+				7DC486641AA563CB00A075F4 /* JHHeaderView.h */,
+				7DC486651AA563E500A075F4 /* JHHeaderView.m */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -277,6 +285,7 @@
 				7DBD344A1AA43E48000F3423 /* tgs.plist in Resources */,
 				7DBD342D1AA42F74000F3423 /* LaunchScreen.xib in Resources */,
 				7DBD344C1AA440BA000F3423 /* JHTgCell.xib in Resources */,
+				7DC486631AA561B200A075F4 /* JHHeaderView.xib in Resources */,
 				7DBD342A1AA42F74000F3423 /* Images.xcassets in Resources */,
 				7DBD34511AA4612D000F3423 /* JHFooterView.xib in Resources */,
 			);
@@ -301,6 +310,7 @@
 				7DBD34481AA43CA0000F3423 /* JHTgCell.m in Sources */,
 				7DBD34221AA42F74000F3423 /* AppDelegate.m in Sources */,
 				7DBD34451AA432A6000F3423 /* JHTgModel.m in Sources */,
+				7DC486661AA563E500A075F4 /* JHHeaderView.m in Sources */,
 				7DBD341F1AA42F74000F3423 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -492,6 +502,7 @@
 				7DBD343E1AA42F74000F3423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7DBD343F1AA42F74000F3423 /* Build configuration list for PBXNativeTarget "团购Tests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +511,7 @@
 				7DBD34411AA42F74000F3423 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
